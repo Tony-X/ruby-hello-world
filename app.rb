@@ -16,7 +16,7 @@ def configure_database
     end
   end
   puts "Connected to d1atabase"
-  puts "Create database..."
+  puts "Create database1..."
   %x"rake db:create"
   puts "Run migrations..."
   %x"rake db:migrate"
